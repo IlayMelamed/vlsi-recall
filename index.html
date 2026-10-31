@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#253d36"><meta name="description" content="A focused study space for Introduction to VLSI. All 63 original questions, adaptive spaced repetition, and mastery exams.">
+  <title>VLSI Recall — Your midterm study space</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css"><link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/fsrs.js"></script><script defer src="vendor/katex/katex.min.js"></script><script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+  <script defer src="questions.js"></script><script defer src="engine.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#home"><span class="brand-icon">↗</span><span>VLSI<span class="brand-light"> / recall</span></span></a>
+    <div class="course-label">YOUR STUDY SPACE</div>
+    <nav aria-label="Main navigation">
+      <a href="#home" data-nav="home"><span>◈</span> Overview</a>
+      <a href="#learn" data-nav="learn"><span>▣</span> Learn <span class="nav-count" id="due-count">0</span></a>
+      <a href="#bank" data-nav="bank"><span>▤</span> Question bank</a>
+      <a href="#exam" data-nav="exam"><span>◎</span> Mock exam</a>
+      <a href="#progress" data-nav="progress"><span>▥</span> Your progress</a>
+      <a href="#settings" class="mobile-settings" data-nav="settings"><span>⚙</span> Settings</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="course-card"><span class="eyebrow">83413 · MIDTERM 1</span><strong>Introduction to VLSI</strong><span>Lectures 01 — 04</span><div class="tiny-track"><i id="side-progress"></i></div><small id="side-coverage">0 of 63 questions explored</small></div><a class="settings-link" href="#settings">⚙ &nbsp; Settings & data</a><span class="local-status"><i></i> Saved on this device</span></div>
+  </aside>
+  <div class="workspace"><header class="topbar"><span id="breadcrumb">Your overview</span><span class="topbar-right"><span class="online-dot"></span> A little every day goes a long way <span class="avatar">V</span></span></header><main id="main" tabindex="-1"></main><footer>Built for understanding. Designed for remembering. <a href="#about">How it works ↗</a></footer></div>
+  <dialog id="modal"><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+  <noscript>This study app needs JavaScript enabled to show questions and save progress.</noscript>
+</body>
+</html>

@@ -1,0 +1,57 @@
+VLSI Recall — Third-party notices
+
+COURSE SOURCE
+
+Title: Midterm 1 Question Bank, Lectures 1–4
+Course: 83413 Introduction to VLSI
+Author: Ari Sharon
+Academic year: 2026–2027
+Institution: Hebrew University of Jerusalem
+
+Original supplied filename:
+83413 Midterm Question Bank L1-L4 published.pdf
+
+Included reference copy:
+assets/original-question-bank.pdf
+
+The questions, answer choices, diagrams and official answer explanations are
+reproduced from that supplied PDF as lossless rendered images. They retain
+their original authorship. Additional teaching explanations are separate
+study material and are not presented as official course solutions.
+
+No license for the PDF or course content is inferred or assigned by this
+notice. The software licenses below apply to their respective libraries.
+
+
+TS-FSRS 5.4.2
+
+Project: https://github.com/open-spaced-repetition/ts-fsrs
+Bundled file: vendor/fsrs.js
+License: MIT
+Copyright (c) 2026 Open Spaced Repetition
+The complete license is included in vendor/FSRS-LICENSE.
+
+The library provides the Free Spaced Repetition Scheduler used to estimate
+recall and schedule reviews. The package version is 5.4.2; package version
+numbers and FSRS model version numbers are separate concepts.
+
+
+KATEX 0.19.1
+
+Project: https://katex.org/
+Repository: https://github.com/KaTeX/KaTeX
+Bundled directory: vendor/katex/
+License: MIT
+Copyright (c) 2013-2020 Khan Academy and other contributors
+The complete license is included in vendor/KATEX-LICENSE.
+
+The included browser renderer, auto-render extension, stylesheets and fonts
+render the additional mathematical explanations without a remote CDN.
+
+
+REFERENCE LINKS
+
+Some study explanations contain links to primary educational or technical
+sources to clarify scientific assumptions. Those linked documents remain
+the work of their respective authors. The original course question images
+and official answer key are not silently changed by those clarifications.
